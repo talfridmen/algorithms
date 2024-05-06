@@ -19,4 +19,4 @@ For some of these algorithms there might be more than one solution.
 
 The purpose of this branch is to help you in case you get stuck. Please do not look at the solution before trying yourself first as it will simply ruin the fun :)
 
-* There might be other solutions not implemented here. This is merely a suggestion.
+*** There might be other solutions not implemented here. This is merely a suggestion.
