@@ -24,4 +24,4 @@ $\pi = \frac{4 * hits\ inside\ semi-circle}{hits\ inside\ the\ square}$
 - Check if the value is inside the semi-circle
   - think how we can do this
 - If it hits inside the semi-circle, count it.
-- After you threw all the darts, use the formula described above to get the value of $\pi$
+- After you threw all the darts, use the formula described above to get the value of $\pi$, and return the value received
