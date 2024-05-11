@@ -22,7 +22,7 @@ _Notice: This is not the most efficiet solution. The most efficient solution is 
 
 ## <a name="othermethods">Other Methods</a>
 If you want to practice more techniques, we can do this in more methods, as described bellow:
-### <a name="othermethods">Direct calculation</a>
+### <a name="direct">Direct calculation</a>
 It is possible to get the exact value of the N'th fibonacci sequence by a simple quick calculation.
 This is the direct approach, but we do need to be careful with this one, as python's implementation of floating point numbers sometimes rounds some values, so we can get values that are close, but not exact.
 
