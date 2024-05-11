@@ -1,4 +1,4 @@
-# algorithms
+# Algorithms
 Each directory in this repo contains only a readme file describing the algorithm that you need to implement
 
 ## How to work
