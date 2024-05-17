@@ -12,6 +12,10 @@ I will create a branch called tf/main.
 when I develop the algorithm called fibonacci, I will create a branch called tf/fibonacci.
 When ready, I will create a PR from tf/fibonacci to tf/main.
 
+## How to test yourselves
+In each exercise, there is already a list of tests under the function test() which you can call from the main block of the exercise. 
+Also, in some exercises, there is some useful command examples already implemented in the main block. you may modify those as you please.
+
 ## Branches PATBAS/*
 For each algorithm there is a branch names PATBAS/<algorithm name>.
 This branch contains a suggested implementation for the algorithms.
