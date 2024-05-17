@@ -13,4 +13,3 @@ _Notice: Even though most of these algorithms are already implemented in a way t
 - merge_sort
 - dfs
 - bfs
-- dijkstra
