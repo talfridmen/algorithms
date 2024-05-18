@@ -20,7 +20,7 @@ def test():
     (passed if two_pointer([1,3,4,8,11], 6) is True else failed).append(5)
     
     # 6
-    (passed if two_pointer([1,3,4,8,11], 13) is True else failed).append(6)
+    (passed if two_pointer([1,3,4,8,11], 13) is False else failed).append(6)
 
     if failed:
         print(f"Failed tests: {failed}")
