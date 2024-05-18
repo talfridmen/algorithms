@@ -1,2 +1,6 @@
 def max_value(lst):
-    pass # Implement Here!
+    mx = lst[0]
+    for v in lst:
+        if v > mx:
+            mx = v
+    return mx
