@@ -8,7 +8,7 @@ def test():
     (passed if max_value([1,2,3,4,5]) == 5 else failed).append(1)
 
     # 2
-    (passed if max_value([1,3,5,4,2]) == 0 else failed).append(2)
+    (passed if max_value([1,3,5,4,2]) == 5 else failed).append(2)
 
     # 3
     (passed if max_value([-1, -2, -3, -4, -5]) == -1 else failed).append(3)
