@@ -13,8 +13,8 @@ when I develop the algorithm called fibonacci, I will create a branch called tf/
 When ready, I will create a PR from tf/fibonacci to tf/main.
 
 ## How to test yourselves
-In each exercise, there is already a list of tests under the function test() which you can call from the main block of the exercise. 
-Also, in some exercises, there is some useful command examples already implemented in the main block. you may modify those as you please.
+In each exercise, there is already a list of tests under the *_test.py file which you can run by running the file with python. 
+Also, in some Expert level exercises, there is some useful command examples already implemented in the main block. you may modify those as you please. These are intended to help you understand the objects required to implement these algorithms.
 
 ## Branches PATBAS/*
 For each algorithm there is a branch names PATBAS/<algorithm name>.
