@@ -1,5 +1,14 @@
 def bfs(t, val):
-    pass # implement here
+    search_list = [t]
+    while search_list:
+        for e in search_list:
+            if e.value == val:
+                return True
+        new_search_list = []
+        for e in search_list:
+            new_search_list.extend(e.children)
+        search_list = new_search_list
+    return False
 
 
 class Node:
