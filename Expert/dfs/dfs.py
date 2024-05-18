@@ -1,5 +1,8 @@
 def dfs(t, val):
-    pass # implement here
+    if t.value == val:
+        return True
+    else:
+        return any(dfs(child, val) for child in t.children)
 
 
 class Node:
