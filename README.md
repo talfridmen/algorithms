@@ -24,3 +24,13 @@ For some of these algorithms there might be more than one solution.
 The purpose of this branch is to help you in case you get stuck. Please do not look at the solution before trying yourself first as it will simply ruin the fun :)
 
 *** There might be other solutions not implemented here. This is merely a suggestion.
+
+## Git commands to get you started
+git clone git@github.com:talfridmen/algorithms.git     -> clone the repo locally\
+git checkout -b \<yourname>/main                        -> create your main branch\
+git checkout -b \<yourname>/\<exercise> \<yourname>/main  -> create a new branch for the new exercise, starting from your main branch\
+\<write code>\
+git add \<files to add or -A for all>                   -> will add all the files you listed to the tracked files list\
+git commit -m "\<describe your commit>"                 -> will commit (save) your changes to your local git\
+git push --set-upstream origin/\<branchname>            -> will push the changes to the remote branch\
+\<log in to github and open a PR>
