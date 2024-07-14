@@ -17,7 +17,7 @@ def test():
     (passed if two_pointer([1,3,4,6,7], 10) is True else failed).append(4)
     
     # 5
-#jtal this should be false    (passed if two_pointer([1,3,4,8,11], 6) is True else failed).append(5)
+#jtal this test should return false    (passed if two_pointer([1,3,4,8,11], 6) is True else failed).append(5)
     (passed if two_pointer([1,3,4,8,11], 6) is False else failed).append(5)
     
     # 6
