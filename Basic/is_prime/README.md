@@ -5,6 +5,12 @@ A primality test is an algorithm for determining whether an input number is prim
 ## What will we do?
 We will create a test, that receives a number, and tests whether it is prime or not.
 
+##### Example
+If the user inputs `is_prime(5)`:
+The function should check and return True as 5 is indeed prime.
+If the user inputs `is_prime(27)`:
+The function should check and return False as 27 is not prime (divisible by 3 for example)
+
 ## How will it work?
 There are multiple methods to test if a number is prime. For large numbers, like used in cryptography, a probabilistic or heuristic test is normally used, as it is "good enough", and worth the mistakes in order to make it a quicker check.
 We will actually test this is a more definitive approach, which might take longer.
