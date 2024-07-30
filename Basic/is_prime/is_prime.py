@@ -1,5 +1,4 @@
 import sys
-
 #Test if argument is a prime number
 def is_prime(number):
     if number >1:
@@ -24,18 +23,3 @@ def is_prime(number):
     else:
         print (f"{number} is not a prime number")
         return False
-
-#Method for user input and test it's validity, returning only a valid argument
-def get_input():
-    if len(sys.argv) !=2:
-        print ("Run me with python program.py <integer>")
-        sys.exit(1)
-    try:   
-        argument = int(sys.argv[1])
-        return argument
-    except ValueError:
-        print (f"Error: - Please provide with valid int")
-        exit(1)
-
-#Invoke the test algorithm with encapsulated user input
-is_prime(get_input())
