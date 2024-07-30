@@ -4,7 +4,12 @@ In mathematics, the Fibonacci sequence is a sequence in which each number is the
 $0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ....$
 
 ## What will we do?
-We will create a function that will calculate the N'th value of the fibonacci sequence
+We will create a function that will calculate the N'th value of the fibonacci sequence.
+
+##### Example:
+If the user runs `fibonacci(7)`:
+The function should return 13, which is the 7th fibonacci number
+The program we create will do the following:
 
 ## How will it work?
 There are multiple methods to calculate the N'th value of the fibonacci sequence. We will work with a simple loop-implementation. For more practice you can try implementing more methods, as described bellow in the ["other methods"](#othermethods) section bellow.

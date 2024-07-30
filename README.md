@@ -1,6 +1,15 @@
 # Algorithms
 Each directory in this repo contains only a readme file describing the algorithm that you need to implement
 
+## Some Highlights:
+- You never need to use the `input` command in these exercises. When I say "receive the value from the user" or similar, my meaning is that it is received *as a parameter to the function*
+- If you are not clear on one of the tasks, first read it in full (except for the `Other Methods` section). All the info should be there. If you still are not clear on the algorithm itself that you need to implement, ask me before diving in.
+- Each exercise is ordered so that each one uses new logic/operators that are increasingly harder. If you start from the first task, there shouldn't be any advanced programming skills involved. 
+- Each exercise has a part that *you* need to figure out how to implement. I will not give you the answer to everything. I strongly suggest if it does not come too easy for you, to take a piece of paper, write a few examples of what you expect to happen, and start jotting down general idea guidelines of how to do it. 
+- In most exercises, there could arise some edge cases. This means, that with some inputs, the function might be just a little bit off. I want you to find how to handle these. This means thinking of what might happen in different flows of the algorithms, so jot down some edge case ideas and think yourself what might happen and try following your algorithm manually on a piece of paper. Examples of edge cases, if I ask for an integer input, the simple case would be numbers like 1,2,5,10... what would happen if it is 0? or -1? or some insanely big number such as 1,000,000? I tried to cover these edge cases in the tests, so if one of them fails, try to think of the edge cases yourself, or go into the test file just to have a quick look at the specific case you failed on, and learn from it!
+- Good luck!
+
+
 ## How to work
 Create your own branch: <your name>/main
 This will, from now on, be your main branch.
