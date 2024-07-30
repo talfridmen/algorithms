@@ -3,7 +3,11 @@
 In mathematics, the digit sum of a natural number in a given number base is the sum of all its digits. For example, the digit sum of the decimal number 9045 would be $9+0+4+5=18$.
 
 ## What will we do?
-We will create a function that will calculate the Sum of the Digits of a given number
+We will create a function that will calculate the Sum of the Digits of a given number.
+
+##### Example
+If the user runs sum_of_digits(135):
+The function should eventually return 9 (1+3+5).
 
 ## How will it work?
 In order to sum the digits, we will have to split the number into its digits, and add them up. There are a few methods to do this, but we will focus on the `modulo` method.
