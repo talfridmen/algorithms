@@ -1,19 +1,21 @@
 def binary_search(lst, num):
-    from statistics import mean
-    first_i, last_i, i = 0, len(lst)-1, len(lst)//2
-    
-    while first_i < last_i:
-        i = int(mean([last_i,first_i]))
-        if lst[i] == num:
-            return i
-        elif lst[i] > num:
-            if last_i == i:
-                return None
-            last_i = i
+    if not lst:
+        return None
+    elif len(lst)==1:
+        if lst[0] == num:
+            return 0
         else:
-            if first_i == i:
-                return None
-            first_i = i
+            return None
 
-    return None
-
+    i = round(len(lst)/2)
+    
+    if lst[i] == num:
+        return i
+    elif lst[i] > num:
+        return binary_search(lst[:i],num)
+    elif lst[i] < num:
+        e = binary_search(lst[-i:],num)
+        if e == None:
+            return None
+        else:
+            return i + e + len(lst)%2
